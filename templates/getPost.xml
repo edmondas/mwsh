@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<methodCall>
+ <methodName>metaWeblog.getPost</methodName>
+ <params>
+  <param>
+   <value>
+    <string>POSTID</string>
+   </value>
+  </param>
+  <param>
+   <value>
+    <string />
+   </value>
+  </param>
+  <param>
+   <value>
+    <string />
+   </value>
+  </param>
+ </params>
+</methodCall>

@@ -1,0 +1,53 @@
+[ About ]
+
+This is a command line client for Microsoft SharePoint blog.
+During first run you will need to provide blog url and username.
+All information is stored in user's home directory (~/.mwshrc file)
+For security reasons you will need to write your blog password 
+everytime when you run this script. If you really really want to
+save password then simply write it as password=PASSWORD to ~/.mwshrc
+config file.
+
+For XML parsing it uses slighty modified awk script by Steve Coile
+http://lawker.googlecode.com/svn/fridge/lib/awk/xmlparse.awk
+
+
+[ Usage ]
+
+Usage: ./mw.sh <command> [<post_id>]
+All command list (and aliases) you can see by running this script without any argument.
+
+
+[ Examples ] 
+
+to get blog information:
+./mw.sh info
+
+To create new blog post:
+./mw.sh new
+
+To remove blog post (using alias to remove):
+./mw.sh rm
+
+To get specific post (passing post id from command line):
+./mw.sh get 1
+
+
+[ Implemented MetaWeblog API ]
+
+metaWeblog.newPost
+metaWeblog.editPost
+metaWeblog.getPost
+metaWeblog.getCategories
+metaWeblog.getRecentPosts
+metaWeblog.newMediaObject	NOT IMPLEMENTED
+blogger.deletePost
+blogger.getUsersBlogs
+blogger.getUserInfo
+
+
+[ MetaWeblog API Reference ]
+
+http://msdn.microsoft.com/en-us/library/bb259697.aspx
+http://msdn.microsoft.com/en-us/library/cc313100.aspx
+

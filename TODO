@@ -1,0 +1,12 @@
+implement error handling according return codes from 
+http://msdn.microsoft.com/en-us/library/bb259699.aspx
+
+implement uploading of media/other file using newMediaObject method
+
+allow to use external editor to create post content
+
+implement fine post editing - do not remove field content if it
+was not changed (only ENTER pressed), allow to edit existing content
+in external editor
+
+refactor sendXmlWithArgs and sendXmlWithArgs2 functions

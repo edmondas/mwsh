@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<methodCall>
+ <methodName>metaWeblog.newPost</methodName>
+ <params>
+  <param>
+   <value>
+    <string>mw.sh</string>
+   </value>
+  </param>
+  <param>
+   <value>
+    <string />
+   </value>
+  </param>
+  <param>
+   <value>
+    <string />
+   </value>
+  </param>
+  <param>
+   <struct>
+    <member>
+     <name>categories</name>
+     <value>
+      <array>
+       <data>
+        <value>CATEGORY</value>
+       </data>
+      </array>
+     </value>
+    </member>
+    <member>
+     <name>description</name>
+     <value>DESCRIPTION</value>
+    </member>
+    <member>
+     <name>title</name>
+     <value>TITLE</value>
+    </member>
+    <member>
+     <name>dateCreated</name>
+     <value>
+      <dateTime.iso8601>DATE</dateTime.iso8601>
+     </value>
+    </member>
+   </struct>
+  </param>
+  <param>
+   <value>
+    <boolean>STATUS</boolean>
+   </value>
+  </param>
+</params>
+</methodCall>

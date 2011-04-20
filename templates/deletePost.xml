@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<methodCall>
+ <methodName>blogger.deletePost</methodName>
+ <params>
+  <param>
+   <value>
+    <string>mw.sh</string>
+   </value>
+  </param>
+  <param>
+   <value>
+    <string>POSTID</string>
+   </value>
+  </param>
+  <param>
+   <value>
+    <string />
+   </value>
+  </param>
+  <param>
+   <value>
+    <string />
+   </value>
+  </param>
+  <param>
+   <value>
+    <boolean>1</boolean>
+   </value>
+  </param>
+ </params>
+</methodCall>
